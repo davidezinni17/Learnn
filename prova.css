@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ body {
+    /* background-color: beige; */
+    /* background: linear-gradient(180deg, rgba(245,245,220,1) 42%, rgba(255,255,255,1) 88%); */
+    background-color: #EBF0F2;
+    /* font-family: 'Cabin', sans-serif; 
+    font-family: 'Kanit', sans-serif; */
+    font-family: 'Noto Serif Gujarati', serif;
+    font-size: 34px; 
+    color: black;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+h1 {
+font-size: 40px;
+text-align: center;
+color: #990000;
+font-weight: bold;
+}
+
+.span-studio-zinni {
+    /* font: 50px  ; */
+}
+
+h2 {
+    text-align: center;
+    color: #990000;
+
+}
+
+h3 {
+    text-align: center;
+    color: #990000;
+    font-size: 24px;
+    /* margin-bottom: -10pxs; */
+    position: relative;
+    top: 80px;
+    padding: 0 30px;
+}
+
+.button {
+    background-color: #990000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 36px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+.button-menu {
+    background-color: #990000;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 36px;
+    font-weight: bold;
+}
+
+.button-menu:hover {
+    background-color: bisque;
+    color: #990000;
+    font-weight: bold;
+}
+
+.button:hover {
+background-color: bisque;
+color: #990000;
+}
+
+.container {
+    /* background-color: transparent;  */
+   width: 100%; 
+   max-width: 1600px;
+   padding: 0 30px 10px 30px;
+   margin: 0 auto;
+}
+
+.logo {
+    /* text-align: center; */
+    /* align-self: center; */
+     width: 100%; 
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     position: sticky;
+}
+
+.header {
+    padding: 10px 30px 10px 30px;
+    position: fixed;
+    top: 0;
+    background-color: bisque;
+    height: 140px;
+    /* margin: 5px; */
+    /* max-width: 1040px; */
+    width: 100%;
+    /* padding: 10px; */
+    z-index: 5;
+   /* text-align: center; */
+    display: flex;
+    flex-direction: column ;
+    align-items: center; 
+   
+}
+
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: #EBF0F2;
+}
+
+.sala-riunioni {
+text-align: center;
+}
+
+
+
+.sala-riunioni img  {
+    width: 100%; 
+    max-width: 1600px;
+    text-align: center;
+    margin-top: 200px;
+    /* width: 100vw;
+    margin-right: 15px;
+    margin-left: 15px;
+    max-width: 1140px; */
+}
+
+.prime-info {
+    margin-top: 60px;
+    padding: 0 50px;
+    /* padding-top: 50px; */
+}
+
+
+.image {
+    border-radius: 40px;
+    /* max-width: 2000px; */
+}
+
+
+
+.menu {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 40px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-right: 50px;
+    margin: 0 auto;
+}
+
+.menu ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #990000;
+}
+
+a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #ffffff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+.paragrafo {
+    margin-top: 200px;
+}
+
+/* .cornice {
+    position: relative;
+    top: 400px;
+    left: 40px; 
+    right: 100px; 
+    align-self: center; 
+    width: 1400px;
+    height: 730px; 
+    position: relative;
+    left: 170px;
+    top: 800px;
+    display: flex;
+    align-self: center;
+} */
+
+/* .cornice {
+position: relative;
+text-align: center;
+} */
+
+#central-section {
+margin-top: 90px;
+height: 800px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url("cornice rossa.png");
+background-repeat: no-repeat;
+background-size: 90%;
+background-position: center;  
+}
+
+#central-section2 {
+    /* margin: 0 auto; */
+    /* margin-top: 20px; */
+    padding: 0 120px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.central-image {
+    width: 30%;
+}
+
+.central-text {
+    padding: 30px 60px;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+.youtube-container {
+ margin-top: 200px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+.video {
+    /* text-align: center; */
+    /* margin-right: 20px; */
+    margin: 0 auto;
+}
+
+.all-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding: 30px; 
+    align-items: center; 
+}
